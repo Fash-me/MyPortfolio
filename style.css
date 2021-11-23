@@ -1,0 +1,88 @@
+/* background of the web page */
+body {
+  background-image: url("images/brown.jpg");
+  background-size: 100%;
+}
+/* the header*/
+header {
+  background:rgb(27, 26, 26);
+  padding: 2px;
+  color: rgb(14, 133, 93);
+  border: 2px solid gray;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px
+}
+.sub {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(14, 133, 93);
+  font-size: 20px;
+}
+/* navigation and pseudo classes for the links */
+nav {
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(14, 133, 93);
+}
+a:link {
+  color:rgb(14, 133, 93);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(189, 174, 152);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(72, 151, 125);
+  text-decoration: none;
+  background-color: rgb(189, 174, 152);
+}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+.recipe{
+  border-radius: 5px;
+  background-color:rgb(72, 151, 125);
+  padding: 2px;
+  margin-top: 100px;
+}
+
+/* the image */
+ .wrapper {
+  display: block;
+  margin: 60px auto;
+  border-radius: 10px;
+}
+/* the first paragraph */
+h2 {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(14, 133, 93);
+  font-size: 20px
+}
+/* paragraphs */
+ p {
+  display: block;
+  margin: 0 100px 0 100px ;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+/* divider */
+.line {
+ height:1px ;        
+ background-color: aquamarine;
+ width: 400px;
+ text-align: center;
+}
+/* footer */
+footer {
+  background-color:rgb(27, 26, 26);
+  color: rgb(14, 133, 93);
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
